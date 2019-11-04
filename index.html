@@ -22,6 +22,38 @@
     ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form>
+          <div class="row">
+            <div class="col-7">
+              <input
+                type="search"
+                placeholder="Search city here"
+                autocomplete="on"
+                id="search-city"
+                class="form-control"
+              />
+            </div>
+            <div class="col-4">
+              <input
+                type="submit"
+                value="GO!"
+                class="form-control btn btn-warning"
+              />
+            </div>
+            <div class="col-1" id="location">
+              <input
+                type="button"
+                value="📍"
+                class="form-control btn btn-light"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
   <script src="index.js"></script>
 </html>
